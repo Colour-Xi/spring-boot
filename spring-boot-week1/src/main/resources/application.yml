@@ -1,2 +1,25 @@
 server:
   port: 8081
+spring:
+  application:
+    name: "course"
+#自定义
+my:
+  mood:
+    today: 周五
+    author: cooler
+    eye: 瞎的
+
+  feature:
+    helloSwitch: true
+    closeMsg: "接口维护，暂不开发"
+
+co:
+  sms:
+    ccp:
+      serverIp: app.cloopen.com
+      port: 8883
+      accountSId: 你的accountSId
+      accountToken: 你的accountToken
+      appId: 你的appId
+      templateId: 1
