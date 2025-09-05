@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 //TIP 要<b>运行</b>代码，请按 <shortcut actionId="Run"/> 或
 // 点击装订区域中的 <icon src="AllIcons.Actions.Execute"/> 图标。
 @RestController
@@ -18,7 +20,13 @@ public class Application {
         System.out.println("run test1");
     }
     @GetMapping("/hello")
-    public String index() {
+    public String hello() {
         return "hello world!";
     }
+
+    @GetMapping("/strings")
+    public List<String> strings() {
+        return List.of("hello", "world");
+    }
+
 }
