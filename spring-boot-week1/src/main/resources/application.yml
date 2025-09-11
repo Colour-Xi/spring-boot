@@ -14,12 +14,4 @@ my:
     helloSwitch: true
     closeMsg: "接口维护，暂不开发"
 
-co:
-  sms:
-    ccp:
-      serverIp: app.cloopen.com
-      port: 8883
-      accountSId: 2c94811c9860a9c4019917b725b11d90
-      accountToken: ee454a4afd794c0f9efb8a275bea32da
-      appId: 2c94811c9860a9c4019917b7273a1d97
-      templateId: 1
+
